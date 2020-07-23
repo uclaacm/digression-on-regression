@@ -1,5 +1,10 @@
 # A Digression on Regression
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/25596295-9c22-4fd3-9482-60aecf64e7cb/deploy-status)](https://app.netlify.com/sites/objective-hypatia-2658a3/deploys)
+![Node.js Build](https://github.com/uclaacm/digression-on-regression/workflows/Node.js%20Build/badge.svg)
+
+an *amazing* learning lab built by chloe and peter 
+
 more info coming soon :)
 
 ## Development Setup
