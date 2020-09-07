@@ -9,14 +9,26 @@
 
 .App-header {
   background-color: #FBFBFB;
-  min-height: 100vh;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: calc(10px + 5vmin);
+  margin: 5vmin;
   color: #95CF67;
 }
+
+#intro {
+  color: black;
+  font-weight: normal;
+  padding-top: 5vmin;
+  font-size: calc(5vmin);
+  margin-left: 10vmin;
+  align-content: center;
+}
+
 .introHeader {
   background-color: #95CF67;
   color: white;
@@ -24,11 +36,27 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  position: absolute;
-  padding: 2vmin;
-  top: 0;
+  padding: 5vmin;
   width: 100%;
 }
-.App-link {
-  color: #61dafb;
+
+#chart-icon {
+  color: #95CF67;
+  font-size: 30vmin;
+  padding-left: 5vmin;
+  float: center;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  margin-right: 10vmin;
+}
+
+.start_button {
+  background-color: #95CF67;
+  /* color: white;
+  font-size: 5vmin;
+  padding: 1vmin;
+  border-radius: 10%;
+  text-decoration: none;
+  border: none; */
 }
