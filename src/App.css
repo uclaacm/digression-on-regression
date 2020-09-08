@@ -49,4 +49,11 @@
   text-align: center;
   align-content: center;
   margin-right: 10vmin;
+  overflow: hidden;
 }
+
+  @media screen and (max-width: 770px) {
+   #chart-icon {
+     display: none !important;
+    }
+  }

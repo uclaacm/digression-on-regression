@@ -23,7 +23,9 @@ function Intro(props) {
                 <Col xs={12} md={8}><p id="intro">What is linear and logistic regression? 
                 Why does it even matter? This lesson will give you an introduction to 
                 linear and logistic regression and explain why it is such an important topic. </p> </Col>
-                <Col xs={6} md={4}><FontAwesomeIcon id="chart-icon" icon={faChartLine}/></Col>
+                <div id="Show">
+                    <Col xs={6} md={4}><FontAwesomeIcon id="chart-icon" icon={faChartLine}/></Col>
+                </div>
               </Row>
             </Container>
     
