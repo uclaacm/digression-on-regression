@@ -5,6 +5,7 @@
     font-weight: bold;
     padding: 0.3em;
   }
+
   #intro {
     color: black;
     font-weight: bold;
@@ -27,7 +28,7 @@
   
   #chart-icon {
     color: #95CF67;
-    font-size: 25em;
+    font-size: 20em;
     float: center;
     text-align: center;
     align-content: center;

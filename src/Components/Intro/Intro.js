@@ -33,7 +33,7 @@ function Intro(props) {
 
 
 
-            <div style={{textAlign: 'center', marginTop: "1em", marginBottom: "2em"}}>
+            <div style={{textAlign: 'center', marginTop: "0", marginBottom: "2em"}}>
               <Button variant="contained"
                 style={{
                   backgroundColor: "#95CF67",
