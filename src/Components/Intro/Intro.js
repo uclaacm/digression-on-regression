@@ -32,12 +32,12 @@ function Intro(props) {
               </Row>
             </Container>
     
-            <div style={{textAlign: 'center', marginTop: "2vmin"}}>
+            <div style={{textAlign: 'center', marginTop: "1em", marginBottom: "2em"}}>
               <Button variant="contained"
                 style={{
                   backgroundColor: "#95CF67",
                   color: "white",
-                  fontSize: "3vmin"
+                  fontSize: "2em"
                 }}
               >
                 Start
