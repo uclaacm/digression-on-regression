@@ -22,9 +22,9 @@
 
 #intro {
   color: black;
-  font-weight: normal;
+  font-weight: bold;
   padding-top: 5vmin;
-  font-size: calc(5vmin);
+  font-size: 3vmin;
   margin-left: 10vmin;
   align-content: center;
 }
@@ -49,14 +49,4 @@
   text-align: center;
   align-content: center;
   margin-right: 10vmin;
-}
-
-.start_button {
-  background-color: #95CF67;
-  /* color: white;
-  font-size: 5vmin;
-  padding: 1vmin;
-  border-radius: 10%;
-  text-decoration: none;
-  border: none; */
 }
