@@ -1,11 +1,11 @@
-//import React from 'react';
+import React from 'react';
 import './App.css';
 //import Intro from './Components/Intro/Intro.js';
-import Def_linear from './Components/Def_linear/Def_linear.js';
+import DefLinear from './Components/DefLinear/DefLinear.js';
 
 function App() {
   return (
-    Def_linear()
+    <DefLinear />
   );
 }
 

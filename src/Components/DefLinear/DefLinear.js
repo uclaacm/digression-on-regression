@@ -1,8 +1,8 @@
 import React from 'react';
-import './Def_linear.css';
+import './DefLinear.css';
 import Button from '@material-ui/core/Button';
 
-function Def_linear(props) {
+function DefLinear(props) {
     return (
 
         <div style={{textAlign: "center", maxWidth: "70em", margin: "0 auto"}}>
@@ -62,4 +62,4 @@ function Def_linear(props) {
     );
 }
 
-export default Def_linear;
+export default DefLinear;
