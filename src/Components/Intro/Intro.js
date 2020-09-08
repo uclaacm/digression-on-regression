@@ -8,9 +8,11 @@ import Grid from '@material-ui/core/Grid';
 function Intro(props) {
     return (
         <div style={{backgroundColor: '#FFFFFF'}}>
+
           <header>
             <h1 className="introHeader">Linear vs. Logistic Regression</h1>
           </header>
+
           <div>
             <p id="Digression">
               Digression on Regression
@@ -31,16 +33,13 @@ function Intro(props) {
               </Grid>
             </div>
 
-
-
             <div style={{textAlign: 'center', marginTop: "0", marginBottom: "2em"}}>
               <Button variant="contained"
                 style={{
                   backgroundColor: "#95CF67",
                   color: "white",
                   fontSize: "2em"
-                }}
-              >
+                }}>
                 Start
               </Button>
             </div>
