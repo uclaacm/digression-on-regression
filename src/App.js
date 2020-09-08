@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './App.css';
 import Intro from './Components/Intro/Intro.js';
 
