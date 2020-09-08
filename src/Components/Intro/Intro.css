@@ -1,0 +1,50 @@
+  
+  .App-header {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: calc(10px + 5vmin);
+    margin: 5vmin;
+    color: #95CF67;
+  }
+  
+  #intro {
+    color: black;
+    font-weight: bold;
+    padding-top: 5vmin;
+    font-size: 3vmin;
+    margin-left: 10vmin;
+    align-content: center;
+  }
+  
+  .introHeader {
+    background-color: #95CF67;
+    color: white;
+    font-size: calc(30px + 4vmin);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 3vmin;
+    width: 100%;
+  }
+  
+  #chart-icon {
+    color: #95CF67;
+    font-size: 30vmin;
+    padding-left: 5vmin;
+    float: center;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    margin-right: 10vmin;
+    overflow: hidden;
+  }
+  
+    @media screen and (max-width: 770px) {
+     #chart-icon {
+       display: none !important;
+      }
+    }
