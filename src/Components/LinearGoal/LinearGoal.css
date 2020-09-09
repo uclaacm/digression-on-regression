@@ -10,6 +10,8 @@
     margin-right: 2em;
 }
 
-.bold {
-    font-weight: bold;
+.Green-button {
+    background-color: #95CF67 !important;
+    color: white !important;
+    font-size: 1em !important;
 }

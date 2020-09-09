@@ -1,11 +1,29 @@
 import React from 'react';
 import './App.css';
-//import Intro from './Components/Intro/Intro.js';
+import Intro from './Components/Intro/Intro.js';
 import DefLinear from './Components/DefLinear/DefLinear.js';
+import {BrowserRouter as Router,
+        Switch,
+        Route
+      } from 'react-router-dom';
+import LinearGoal from './Components/LinearGoal/LinearGoal.js';
 
 function App() {
+  
   return (
-    <DefLinear />
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Intro />
+        </Route>
+        <Route exact path="/linear">
+          <DefLinear />
+        </Route>
+        <Route path="/LinearGoal">
+          <LinearGoal />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

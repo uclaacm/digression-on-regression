@@ -4,8 +4,13 @@ import {faChartLine} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
+import {useHistory} from 'react-router-dom';
 
 function Intro(props) {
+    const history=useHistory()
+    const onStartClick = () => {
+      history.push("/linear");
+    }
     return (
         <div style={{backgroundColor: '#FFFFFF'}}>
 
@@ -34,7 +39,7 @@ function Intro(props) {
             </div>
 
             <div style={{textAlign: 'center', marginTop: "0", marginBottom: "2em"}}>
-              <Button variant="contained"
+              <Button onClick={onStartClick} variant="contained"
                 style={{
                   backgroundColor: "#95CF67",
                   color: "white",
