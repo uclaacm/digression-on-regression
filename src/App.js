@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Intro from './Components/Intro/Intro.js';
+import BasicPlot from './Components/BasicPlot/BasicPlot.js';
 import DefLinear from './Components/DefLinear/DefLinear.js';
 import {BrowserRouter as Router,
         Switch,
@@ -14,7 +15,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Intro />
+          <BasicPlot />
         </Route>
         <Route exact path="/linear">
           <DefLinear />
