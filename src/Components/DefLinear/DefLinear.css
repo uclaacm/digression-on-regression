@@ -10,6 +10,20 @@
     margin-right: 2em;
 }
 
+.Green-button {
+    background-color: #95CF67;
+    color: white;
+    font-size: 1em;
+}
+
+/* .ButtonRight {
+
+}
+
+.ButtonLeft {
+
+} */
+
 .bold {
     font-weight: bold;
 }

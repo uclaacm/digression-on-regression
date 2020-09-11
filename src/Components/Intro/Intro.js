@@ -38,13 +38,8 @@ function Intro(props) {
               </Grid>
             </div>
 
-            <div style={{textAlign: 'center', marginTop: "0", marginBottom: "2em"}}>
-              <Button onClick={onStartClick} variant="contained"
-                style={{
-                  backgroundColor: "#95CF67",
-                  color: "white",
-                  fontSize: "2em"
-                }}>
+            <div className="ParagraphStyle">
+              <Button onClick={onStartClick} variant="contained" className="Green-button">
                 Start
               </Button>
             </div>

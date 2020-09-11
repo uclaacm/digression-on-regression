@@ -7,6 +7,7 @@ import {BrowserRouter as Router,
         Route
       } from 'react-router-dom';
 import LinearGoal from './Components/LinearGoal/LinearGoal.js';
+import BasicPlot from './Components/BasicPlot/BasicPlot.js';
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Intro />
+          <BasicPlot />
+          {/* <Intro /> */}
         </Route>
         <Route exact path="/linear">
           <DefLinear />

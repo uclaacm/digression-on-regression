@@ -9,7 +9,7 @@ function LinearGoal() {
       history.push("/linear");
     }
     return (
-        <div style={{textAlign: "center", maxWidth: "70em", margin: "0 auto"}}>
+        <div className="ParagraphStyle">
             <h1 className="header">
                 The Goal
             </h1>

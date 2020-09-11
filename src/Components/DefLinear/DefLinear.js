@@ -44,22 +44,12 @@ function DefLinear(props) {
                     </div>
                     <div style={{marginTop: "3em"}}>
                         <div style={{float: "right", marginRight: "3em"}}>
-                            <Button variant="contained" onClick={onNextClick}
-                                style={{
-                                    backgroundColor: "#95CF67",
-                                    color: "white",
-                                    fontSize: "1em"
-                                    }}>
+                            <Button variant="contained" onClick={onNextClick} className="Green-button">
                                 Next
                             </Button>
                         </div>
                         <div style={{float: "left", marginLeft: "3em"}}>
-                            <Button variant="contained" onClick={onBackClick}
-                                style={{
-                                    backgroundColor: "#95CF67",
-                                    color: "white",
-                                    fontSize: "1em"
-                                    }}>
+                            <Button variant="contained" onClick={onBackClick} className="Green-button">
                                 Back
                             </Button>
                         </div>
