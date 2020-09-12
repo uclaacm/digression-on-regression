@@ -23,7 +23,7 @@ function App() {
         <Route path="/LinearGoal">
           <LinearGoal />
         </Route>
-        <Route path="chart">
+        <Route path="/chart">
           <BasicPlot />
         </Route>
       </Switch>

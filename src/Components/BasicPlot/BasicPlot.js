@@ -81,7 +81,7 @@ class BasicPlot extends React.Component {
                             x: this.state.x,
                             y: this.state.y,
                             type: 'scatter',
-                            mode: 'lines+markers'
+                            mode: 'markers'
                         }
                     ]}
                     layout={{title: 'Experimental Plot'}}
