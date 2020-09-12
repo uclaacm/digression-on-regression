@@ -15,13 +15,16 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <BasicPlot />
+          <Intro />
         </Route>
         <Route exact path="/linear">
           <DefLinear />
         </Route>
         <Route path="/LinearGoal">
           <LinearGoal />
+        </Route>
+        <Route path="chart">
+          <BasicPlot />
         </Route>
       </Switch>
     </Router>

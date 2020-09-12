@@ -19,17 +19,15 @@ function LinearGoal() {
                     that models the universal relationship between serveral inputs and potentially
                     several outputs (but usually just one).
                 </p>
-                <div>
-                    <div>
+
+                <div className="flex-container">
                         <Button variant="contained" className="Green-button">
                             Next
                         </Button>
-                    </div>
-                    <div>
+
                         <Button variant="contained" className="Green-button" onClick={onBackClick}>
                             Back
                         </Button>
-                    </div>
                 </div>
             </div>
         </div>

@@ -13,5 +13,13 @@
 .Green-button {
     background-color: #95CF67 !important;
     color: white !important;
-    font-size: 1em !important;
+    font-size: 2em !important;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 3em;
 }
