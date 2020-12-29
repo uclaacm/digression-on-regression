@@ -1,5 +1,9 @@
+.appbar {
+  cursor: pointer;
+}
+
 .content {
-  position: absolute;
+  position: fixed;
   top: 30%;
   left: 20%;
   display: flex;

@@ -11,15 +11,16 @@ const App = () => {
   const getPageContent = (i) => {
     let page;
 
+    // Map indices to pages.
     switch(i) {
       case 0:
         page = <IntroLinear />;
         break;
       case 1:
-        page = <div>2nd page</div>;
+        page = <Typography>2nd page</Typography>;
         break;
       default:
-        page = <div>default page</div>
+        page = <Typography>default</Typography>;
         break;
     }
 
@@ -30,7 +31,7 @@ const App = () => {
     <div className="App">
       <AppBar position="fixed">
         <Toolbar>
-          <Typography variant="h6">
+          <Typography variant="h6" onClick={() => setActiveStep(0)} className="appbar">
             A Digression on Regression
           </Typography>
         </Toolbar>
