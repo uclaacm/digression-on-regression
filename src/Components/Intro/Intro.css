@@ -1,0 +1,44 @@
+  #Digression {
+    color: #95CF67;
+    font-size: 4.5em;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.3em;
+  }
+
+  #intro {
+    color: black;
+    font-weight: bold;
+    padding-top: 1em;
+    font-size: 2em;
+    margin-left: 3em;
+    align-content: center;
+  }
+  
+  .introHeader {
+    background-color: #95CF67;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0.5em;
+    width: 100%;
+    margin-top: 0%;
+  }
+  
+  #chart-icon {
+    color: #95CF67;
+    font-size: 20em;
+    float: center;
+    text-align: center;
+    align-content: center;
+    padding-bottom: .2em;
+    padding-right: 0.1em;
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 770px) {
+    #chart-icon {
+      display: none !important;
+    }
+  }

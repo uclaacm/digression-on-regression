@@ -1,0 +1,38 @@
+#background {
+    background-color: #6920BC;
+    padding: 1.5em;
+}
+
+.header {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#headerColor {
+    color: white;
+}
+
+#bodyColor {
+    color: black;
+}
+
+.bodyParagraph {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.plotSpecs {
+    height: 100%;
+}
+
+.body {
+    background-color: white;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    height: 90%;
+    
+}

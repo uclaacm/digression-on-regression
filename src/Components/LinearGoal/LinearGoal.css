@@ -1,0 +1,25 @@
+.header {
+    font-size: 3em;
+    font-weight: bold;
+    color: #95CF67;
+}
+
+.Content {
+    font-size: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.Green-button {
+    background-color: #95CF67 !important;
+    color: white !important;
+    font-size: 2em !important;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 3em;
+}
