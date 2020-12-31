@@ -23,7 +23,7 @@ class Overview extends React.Component {
                 <h1 className="header" id="headerColor">Step 2 - Estimating the Model: Overview</h1>
 
                 <Grid container spacing={2}>
-                    <Grid item xs={5}>
+                    <Grid item xs>
                         <div className="body">
                             <p>
 
