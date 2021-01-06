@@ -1,0 +1,18 @@
+.Nav {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.steps {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.next {
+  position: absolute;
+  left: 80%;
+  top: 75%;
+}
