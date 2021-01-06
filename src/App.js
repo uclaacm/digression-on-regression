@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Nav from './Nav/Nav';
-import IntroLinear from './IntroLinear/IntroLinear';
+import Nav from './components/Nav/Nav';
+import IntroLinear from './components/IntroLinear/IntroLinear';
 import { AppBar, Toolbar, Typography, Container } from "@material-ui/core";
 
 import './App.css';
