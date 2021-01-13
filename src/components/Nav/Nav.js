@@ -26,7 +26,7 @@ const Nav = ({ activeStep, setActiveStep }) => {
         ))} 
       </Stepper>
       {activeStep < steps.length - 1 && <Button variant="contained" color="primary" onClick={() => handleStep(activeStep + 1)} disableElevation className="next">
-        NEXT
+        Next
       </Button>}
     </div>
   );

@@ -1,0 +1,14 @@
+.stepsCard{
+    margin-bottom: 80px;
+}
+.LinearSteps{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+.stepsDescrip{
+    max-width: 50%;
+}
+li{
+    margin: 20px;
+}
