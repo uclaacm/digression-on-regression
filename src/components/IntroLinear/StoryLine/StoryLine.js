@@ -10,14 +10,14 @@ import StoryLine3 from '../../../assets/StoryLine3.svg'
 import StoryStepper from "./StoryStepper"
 
 const StoryLine = () => {
-    const [timesClicked, setTimesClicked] = React.useState(0);
-
+    const [activeStep, setActiveStep] = React.useState(0);
+    
     const handleNextClick = () => {
-        setTimesClicked(timesClicked + 1);
+        setActiveStep(activeStep + 1);
     };
 
     const handleBackClick = () => {
-        setTimesClicked(timesClicked - 1);
+        setActiveStep(activeStep - 1);
     };
 
     const getImgContent = (i) => {
@@ -48,8 +48,8 @@ const StoryLine = () => {
                         Before we get into things, let's look at a scenario when we would want to use linear regression...
                     </Box>
                 </Typography>
-                {getImgContent(timesClicked)}
-                <StoryStepper timesClicked={timesClicked} handleNextClick={handleNextClick} handleBackClick={handleBackClick} />
+                {getImgContent(activeStep)}
+                <StoryStepper setActiveStep = {setActiveStep} activeStep = {activeStep} handleNextClick={handleNextClick} handleBackClick={handleBackClick} />
             </CardContent>
         </Card>
       </div>
