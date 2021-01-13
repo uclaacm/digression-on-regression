@@ -1,0 +1,26 @@
+
+.LinearPurpose{
+    margin-bottom: 40px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+}
+
+.slope{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.description{
+    max-width: 45%;
+    margin-right: 5%
+}
+
+.linearPurposeMan{
+    max-width: 40%;
+    height: 600;
+    width: 600;
+}

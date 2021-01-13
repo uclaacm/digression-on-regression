@@ -1,0 +1,11 @@
+.cardContainer{
+    margin-bottom: 40px;
+}
+.GradeApplication{
+    display: flex;
+    flex-direction: row;
+}
+.gradeAppDescrip{
+    width: 60%;
+    margin-right: 5%;
+}

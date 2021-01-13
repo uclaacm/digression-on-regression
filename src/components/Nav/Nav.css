@@ -1,6 +1,6 @@
 .Nav {
   position: fixed;
-  height: 100%;
+  height: 70%;
   width: 100%;
 }
 
@@ -14,5 +14,5 @@
 .next {
   position: absolute;
   left: 80%;
-  top: 75%;
+  top: 95%;
 }

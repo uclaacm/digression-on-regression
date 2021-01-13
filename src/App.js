@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav/Nav';
-import IntroLinear from './components/IntroLinear/IntroLinear';
 import { AppBar, Toolbar, Typography, Container } from "@material-ui/core";
 
+import IntroLinear from './container/IntroLinear/IntroLinear'
 import './App.css';
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
         page = <IntroLinear />;
         break;
       case 1:
-        page = <Typography>2nd page</Typography>;
+        page = <Typography>2nd page</Typography>
         break;
       default:
         page = <Typography>default</Typography>;
@@ -37,9 +37,11 @@ const App = () => {
         </Toolbar>
       </AppBar>
       <Nav activeStep={activeStep} setActiveStep={setActiveStep} />
-      <Container className="content">
-        {getPageContent(activeStep)}
-      </Container>
+      <div className = "container">
+        <Container className="content">
+          {getPageContent(activeStep)}
+        </Container>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,5 @@
+.DataTable{
+    position: relative;
+    width: 40%;
+    overflow-y: auto;
+}
