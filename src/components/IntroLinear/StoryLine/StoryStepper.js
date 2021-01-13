@@ -7,16 +7,16 @@ import MobileStepper from "@material-ui/core/MobileStepper";
 import Button from "@material-ui/core/Button";
 
 
-const StoryStepper = ({ setActiveStep, activeStep, handleNextClick, handleBackClick }) => {
+const StoryStepper = ({ setActiveStep, activeStep }) => {
 
     const handleNext = () => {
         setActiveStep((prevActiveStep) => prevActiveStep + 1);
-        handleNextClick();
+        // handleNextClick();
     };
 
     const handleBack = () => {
         setActiveStep((prevActiveStep) => prevActiveStep - 1);
-        handleBackClick();
+        // handleBackClick();
     };
 
     return (

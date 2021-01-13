@@ -11,14 +11,6 @@ import StoryStepper from "./StoryStepper"
 
 const StoryLine = () => {
     const [activeStep, setActiveStep] = React.useState(0);
-    
-    const handleNextClick = () => {
-        setActiveStep(activeStep + 1);
-    };
-
-    const handleBackClick = () => {
-        setActiveStep(activeStep - 1);
-    };
 
     const getImgContent = (i) => {
         let image;
@@ -49,7 +41,7 @@ const StoryLine = () => {
                     </Box>
                 </Typography>
                 {getImgContent(activeStep)}
-                <StoryStepper setActiveStep = {setActiveStep} activeStep = {activeStep} handleNextClick={handleNextClick} handleBackClick={handleBackClick} />
+                <StoryStepper setActiveStep = {setActiveStep} activeStep = {activeStep}/>
             </CardContent>
         </Card>
       </div>
