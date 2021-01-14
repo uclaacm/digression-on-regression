@@ -4,9 +4,9 @@ import { Typography } from "@material-ui/core";
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import StoryLine1 from '../../../assets/StoryLine1.svg'
-import StoryLine2 from '../../../assets/StoryLine2.svg'
-import StoryLine3 from '../../../assets/StoryLine3.svg'
+import StoryLine1 from '../../../assets/IntroLinear/StoryLine1.svg'
+import StoryLine2 from '../../../assets/IntroLinear/StoryLine2.svg'
+import StoryLine3 from '../../../assets/IntroLinear/StoryLine3.svg'
 import StoryStepper from "./StoryStepper"
 
 const StoryLine = () => {

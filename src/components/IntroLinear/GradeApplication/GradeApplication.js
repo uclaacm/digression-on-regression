@@ -4,7 +4,7 @@ import { Typography } from "@material-ui/core";
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import testPaper from '../../../assets/testPaper.svg'
+import testPaper from '../../../assets/IntroLinear/testPaper.svg'
 
 const GradeApplication = () => {
   return (

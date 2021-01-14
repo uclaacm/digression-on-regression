@@ -13,6 +13,10 @@
   margin-left: 20%;
 }
 
+p{
+  font-size: 25px;
+}
+
 /*
 .appbar {
   cursor: pointer;
