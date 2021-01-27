@@ -18,21 +18,21 @@ const LinearPurpose = () => {
                             What is Linear Regression, and why do we care?
                         </Box>
                     </Typography>
-                    <p>
+                    <Typography>
                         We care because regression tells us the relationship between two or more variables.
-                    </p>
-                    <p>
+                    </Typography>
+                    <Typography>
                         Data from the real world rarely carries a relationship among its variables that can be 
                         modeled perfectly by a function such as a linear function, a quadratic, an exponential, etc.  
                         Linear regression lines take the form:
-                    </p>
-                    <p className = "slope">
+                    </Typography>
+                    <Typography className = "slope">
                         y = mx + b
-                    </p>
-                    <p>
+                    </Typography>
+                    <Typography>
                         The goal of linear regression is to create a line (or hyperplane) that models the universal relationship 
                         between several inputs and potentially several outputs (but ususally just one).
-                    </p>
+                    </Typography>
                 </div>
                 <img src = {LinearPurposeMan} alt = "" className = "linearPurposeMan"/>
                 </div>

@@ -17,13 +17,13 @@ const GradeApplication = () => {
                             What does this have to do with our grades?
                         </Box>
                     </Typography>
-                    <p>
+                    <Typography>
                         Like I mentioned, we can use regression when we’re trying to predict a continuous value such as
                         our grade on a test.
-                    </p>
-                    <p>
+                    </Typography>
+                    <Typography>
                         So we can use regression to predict our next test grade.
-                    </p>
+                    </Typography>
                 </div>
 
                 <img src = {testPaper} alt = ""/>

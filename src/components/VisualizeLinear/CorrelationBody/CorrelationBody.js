@@ -1,5 +1,5 @@
 import React from 'react';
-import './CorrelationDescrip.css'
+import './CorrelationBody.css'
 import PositiveCorrelation from '../../../assets/VisualizeLinear/PositiveCorrelation.svg'
 import NegativeCorrelation from '../../../assets/VisualizeLinear/NegativeCorrelation.svg'
 import Box from '@material-ui/core/Box';
@@ -7,7 +7,7 @@ import { Typography } from "@material-ui/core";
 import CorrelationModal from '../CorrelationModal/CorrelationModal'
 import Button from '@material-ui/core/Button';
 
-const CorrelationDescrip = () => {
+const CorrelationBody = () => {
     const [open, setOpen] = React.useState(0);
 
     const handleOpenA = () => {
@@ -21,28 +21,9 @@ const CorrelationDescrip = () => {
     const handleClose = () => {
         setOpen(0)
     }
-    // const [openA, setOpenA] = React.useState(0);
-    // const [openB, setOpenB] = React.useState(0);
-    // console.log("CorrelationModal")
-  
-    // const handleOpenA = () => {
-    //   setOpenA(true);
-    // };
-
-    // const handleOpenB = () => {
-    //     setOpenB(true);
-    // };
-    
-    // const handleCloseA = () => {
-    //   setOpenA(false);
-    // };
-    
-    // const handleCloseB = () => {
-    //     setOpenB(false);
-    // };
 
     return(
-        <div className = "CorrelationDescrip">
+        <div className = "CorrelationBody">
 
             <div className = "visualizeDataDescrip">
                 <Box fontWeight="fontWeightMedium" m={0}>
@@ -50,10 +31,10 @@ const CorrelationDescrip = () => {
                         Let’s see what our data set looks like
                     </Typography>
                 </Box>
-                <p>
+                <Typography>
                     What do you think the data set on the right would look like on a graph? Click on the button below the 
                     graph that you think represents the data. Hint: Think about correlation.
-                </p>
+                </Typography>
             </div>          
 
             <img className = "positiveCorrelation" src = {PositiveCorrelation} alt = ""/>
@@ -73,4 +54,4 @@ const CorrelationDescrip = () => {
     )
 }
 
-export default CorrelationDescrip;
+export default CorrelationBody;

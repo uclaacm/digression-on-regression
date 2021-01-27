@@ -17,13 +17,13 @@ const Overview = () => {
             </Typography>
 
             <div className ="body">
-              <p>
+              <Typography>
                 In this learning lab, we'll answer the following topics:
-              </p>
+              </Typography>
                 <ol className = "list">
-                    <li>What is linear and logistic regression?</li>
-                    <li>How do you calculate linear and logistic regression?</li>
-                    <li>When and why do we use liner and logistic regression?</li>
+                    <li><Typography>What is linear and logistic regression?</Typography></li>
+                    <li><Typography>How do you calculate linear and logistic regression?</Typography></li>
+                    <li><Typography>When and why do we use liner and logistic regression?</Typography></li>
                 </ol>
               </div>
             </CardContent>

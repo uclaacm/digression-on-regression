@@ -5,7 +5,7 @@ import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import DataTable from '../../components/VisualizeLinear/DataTable/DataTable'
-import CorrelationDescrip from '../../components/VisualizeLinear/CorrelationDescrip/CorrelationDescrip'
+import CorrelationBody from '../../components/VisualizeLinear/CorrelationBody/CorrelationBody'
 
 const VisualizeLinear = () => {
   return (
@@ -19,7 +19,7 @@ const VisualizeLinear = () => {
         <Card>    
             <CardContent>
             <div className = "cardVisLin">
-                <CorrelationDescrip/>
+                <CorrelationBody/>
                 <DataTable className/>
             </div>
             </CardContent>
