@@ -1,21 +1,8 @@
 import React from 'react';
-import { Stepper, Step, StepButton, Button } from "@material-ui/core";
+import { Stepper, Step, StepButton } from "@material-ui/core";
 import './Nav.css';
 
-const Nav = ({ activeStep, setActiveStep }) => {
-  const steps = [
-    "Linear Regression",
-    "Step 1: Visualize Data",
-    "Step 2: Estimate Model",
-    "Step 3: Testing/Validation",
-    "Logistic Regression",
-    "Step 1"
-  ];
-
-  const handleStep = (step) => {
-    setActiveStep(step);
-  }
-
+const Nav = ({ activeStep, handleStep, steps }) => {
   return (
     <div className="Nav">
       <Stepper nonLinear activeStep={activeStep} orientation="vertical" className="steps">
@@ -25,9 +12,6 @@ const Nav = ({ activeStep, setActiveStep }) => {
           </Step>
         ))} 
       </Stepper>
-      {activeStep < steps.length - 1 && <Button variant="contained" color="primary" onClick={() => handleStep(activeStep + 1)} disableElevation className="next">
-        Next
-      </Button>}
     </div>
   );
 }

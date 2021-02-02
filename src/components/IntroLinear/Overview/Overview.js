@@ -8,7 +8,7 @@ import Box from '@material-ui/core/Box';
 const Overview = () => {
   return (
       <div className = "Overview">
-        <Card className="card">
+        <Card>
           <CardContent variant = "outlined">
             <Typography variant="h5">
               <Box fontWeight="fontWeightMedium" m={1}>

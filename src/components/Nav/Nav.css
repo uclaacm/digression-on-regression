@@ -6,13 +6,7 @@
 
 .steps {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 10%;
   transform: translate(-50%, -50%);
-}
-
-.next {
-  position: absolute;
-  left: 80%;
-  top: 95%;
 }

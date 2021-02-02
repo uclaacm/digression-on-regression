@@ -8,7 +8,7 @@ import DataTable from '../../VisualizeLinear/DataTable/DataTable'
 
 const LinearSteps = () => {
   return (
-    <Card className = "stepsCard">
+    <Card>
         <CardContent>
             <div className = "LinearSteps">
                 <div className = "stepsDescrip">
