@@ -1,6 +1,5 @@
 import React from 'react';
 import { Typography } from "@material-ui/core";
-import './IntroLinear.css';
 import Overview from '../../components/IntroLinear/Overview/Overview'
 import StoryLine from '../../components/IntroLinear/StoryLine/StoryLine'
 import Box from '@material-ui/core/Box';

@@ -3,6 +3,7 @@ import Nav from './components/Nav/Nav';
 import { AppBar, Toolbar, Typography, Container } from "@material-ui/core";
 
 import IntroLinear from './container/IntroLinear/IntroLinear'
+import VisualizeLinear from './container/VisualizeLinear/VisualizeLinear'
 import './App.css';
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
         page = <IntroLinear />;
         break;
       case 1:
-        page = <Typography>2nd page</Typography>
+        page = <VisualizeLinear/>
         break;
       default:
         page = <Typography>default</Typography>;

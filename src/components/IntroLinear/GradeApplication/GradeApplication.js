@@ -4,7 +4,7 @@ import { Typography } from "@material-ui/core";
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import testPaper from '../../../assets/testPaper.svg'
+import testPaper from '../../../assets/IntroLinear/testPaper.svg'
 
 const GradeApplication = () => {
   return (
@@ -17,13 +17,13 @@ const GradeApplication = () => {
                             What does this have to do with our grades?
                         </Box>
                     </Typography>
-                    <p>
+                    <Typography>
                         Like I mentioned, we can use regression when we’re trying to predict a continuous value such as
                         our grade on a test.
-                    </p>
-                    <p>
+                    </Typography>
+                    <Typography>
                         So we can use regression to predict our next test grade.
-                    </p>
+                    </Typography>
                 </div>
 
                 <img src = {testPaper} alt = ""/>

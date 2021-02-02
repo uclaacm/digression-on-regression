@@ -1,0 +1,9 @@
+.VisualizeLinear{
+    margin-bottom: 40px;
+}
+
+.cardVisLin{
+    display: flex;
+    flex-direction: row;
+    height: 120vh;
+}
