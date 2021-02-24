@@ -23,10 +23,10 @@ const CorrelationBody = () => {
     }
 
     return(
-        <div className = "CorrelationBody">
+        <div>
 
             <div className = "visualizeDataDescrip">
-                <Box fontWeight="fontWeightMedium" m={0}>
+                <Box fontWeight="fontWeightMedium" m={1}>
                     <Typography variant = "h5">
                         Let’s see what our data set looks like
                     </Typography>

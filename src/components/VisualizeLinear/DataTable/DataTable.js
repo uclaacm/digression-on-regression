@@ -7,8 +7,8 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 
-function createData(name, calories, fat, carbs, protein) {
-    return { name, calories, fat, carbs, protein };
+function createData(name, score, hours) {
+    return { name, score, hours };
   }
   
   const rows = [
@@ -55,11 +55,10 @@ function createData(name, calories, fat, carbs, protein) {
   ];
   
 const DataTable = () => {
-
     return (
-      <div  className = "DataTable">
-        <TableContainer>
-          <Table>
+      <div className="DataTable">
+        <TableContainer >
+          <Table size="small">
             <TableHead>
               <TableRow>
                 <TableCell>Student</TableCell>
@@ -73,8 +72,8 @@ const DataTable = () => {
                   <TableCell component="th" scope="row">
                     {row.name}
                   </TableCell>
-                  <TableCell align="right">{row.calories}</TableCell>
-                  <TableCell align="right">{row.fat}</TableCell>
+                  <TableCell align="right">{row.score}</TableCell>
+                  <TableCell align="right">{row.hours}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
