@@ -16,7 +16,6 @@
 }
 
 .description{
-    max-width: 45%;
     margin-right: 5%
 }
 
@@ -24,4 +23,10 @@
     max-width: 40%;
     height: 600;
     width: 600;
+}
+
+@media only screen and (max-width: 900px) {
+    .linearPurposeMan{
+        display: none;
+    }
 }

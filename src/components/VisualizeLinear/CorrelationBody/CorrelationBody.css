@@ -3,3 +3,9 @@
     margin-bottom: 2vh;
     margin-left: 15vw;
 }
+
+@media only screen and (max-width: 900px) {
+    .correlation{
+        width: 100vw;
+    }
+}

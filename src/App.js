@@ -1,38 +1,39 @@
 import React, { useState } from 'react';
+import {
+  AppBar, Toolbar, Typography, Container, Button, Grid, Box,
+} from '@material-ui/core';
 import Nav from './components/Nav/Nav';
-import { AppBar, Toolbar, Typography, Container, Button, Grid, Box } from "@material-ui/core";
 
-import IntroLinear from './container/IntroLinear/IntroLinear'
-import VisualizeLinear from './container/VisualizeLinear/VisualizeLinear'
+import IntroLinear from './container/IntroLinear/IntroLinear';
+import VisualizeLinear from './container/VisualizeLinear/VisualizeLinear';
 import './App.css';
 
 const App = () => {
-
   const steps = [
-    "Linear Regression",
-    "Step 1: Visualize Data",
-    "Step 2: Estimate Model",
-    "Step 3: Testing/Validation",
-    "Logistic Regression",
-    "Step 1"
+    'Linear Regression',
+    'Step 1: Visualize Data',
+    'Step 2: Estimate Model',
+    'Step 3: Testing/Validation',
+    'Logistic Regression',
+    'Step 1',
   ];
 
   const [activeStep, setActiveStep] = useState(0);
 
   const handleStep = (step) => {
     setActiveStep(step);
-  }
+  };
 
   const getPageContent = (i) => {
     let page;
 
     // Map indices to pages.
-    switch(i) {
+    switch (i) {
       case 0:
         page = <IntroLinear />;
         break;
       case 1:
-        page = <VisualizeLinear/>;
+        page = <VisualizeLinear />;
         break;
       default:
         page = <Typography>default</Typography>;
@@ -40,9 +41,9 @@ const App = () => {
     }
 
     return page;
-  }
+  };
 
-  return (  
+  return (
     <div className="App">
       <AppBar position="fixed">
         <Toolbar>
@@ -63,13 +64,15 @@ const App = () => {
       </Grid>
       <Grid container justify="flex-end">
         <Box m={3}>
-          {activeStep < steps.length - 1 && <Button variant="contained" color="primary" onClick={() => handleStep(activeStep + 1)} disableElevation className="next">
+          {activeStep < steps.length - 1 && (
+          <Button variant="contained" color="primary" onClick={() => handleStep(activeStep + 1)} disableElevation className="next">
             Next
-          </Button>}
+          </Button>
+          )}
         </Box>
       </Grid>
     </div>
   );
-}
+};
 
 export default App;
