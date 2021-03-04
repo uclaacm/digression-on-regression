@@ -5,8 +5,9 @@ module.exports = {
     es2021: true,
   },
   extends: [
+    'eslint:recommended',
     'plugin:react/recommended',
-    'airbnb',
+    // 'airbnb',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -15,9 +16,14 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ["react"],
+  "settings": {
+      "react": {
+        "version": "detect"
+      }
+  },
   rules: {
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "off",
   },
 };
