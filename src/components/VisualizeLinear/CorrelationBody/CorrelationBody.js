@@ -37,13 +37,13 @@ const CorrelationBody = () => {
                 </Typography>
             </div>          
 
-            <img className = "positiveCorrelation" src = {PositiveCorrelation} alt = ""/>
+            <img className = "correlation" src = {PositiveCorrelation} alt = ""/>
             
             <div className="graphButton">
                 <Button onClick = {handleOpenA} variant="contained" color = "primary"> Graph A </Button>
             </div>
 
-            <img className = "negativeCorrelation" src = {NegativeCorrelation} alt = ""/>
+            <img className = "correlation" src = {NegativeCorrelation} alt = ""/>
             
             <div className = "graphButton">
                 <Button onClick = {handleOpenB} variant="contained" color = "primary"> Graph B </Button>

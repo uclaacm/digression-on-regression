@@ -4,8 +4,21 @@
     height: 50vh;
 }
 .stepsDescrip{
-    max-width: 50%;
+    width: 50%;
 }
 li{
     margin: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .LinearSteps{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .stepsDescrip{
+        width: 100%;
+    }
+    .DataTable{
+        display:none;
+    }
 }

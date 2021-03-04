@@ -3,7 +3,7 @@ import Modal from '@material-ui/core/Modal'
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 import { Typography } from '@material-ui/core';
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles((theme) =>
     createStyles({
         modalBody:{
             background: "white",

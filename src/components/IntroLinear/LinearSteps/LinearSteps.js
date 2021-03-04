@@ -26,7 +26,7 @@ const LinearSteps = () => {
                         <li><Typography>Try evaluating the validity and usefulness of the model. Hint: We're going to talk about this some more in the next section</Typography></li>
                     </ol>
                 </div>
-                <DataTable/>
+                <DataTable className="DataTable"/>
             </div>
         </CardContent>
     </Card>
